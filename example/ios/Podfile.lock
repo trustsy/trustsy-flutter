@@ -1,0 +1,39 @@
+PODS:
+  - Flutter (1.0.0)
+  - NFCPassportReader (2.3.1):
+    - OpenSSL-Universal (= 3.3.3001)
+  - OpenSSL-Universal (3.3.3001)
+  - trustsy_verify (0.2.0):
+    - Flutter
+    - TrustsyVerify (~> 0.2)
+  - TrustsyVerify (0.2.0):
+    - NFCPassportReader (~> 2.3)
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - trustsy_verify (from `.symlinks/plugins/trustsy_verify/ios`)
+  - TrustsyVerify (from `../../../../ios`)
+
+SPEC REPOS:
+  trunk:
+    - NFCPassportReader
+    - OpenSSL-Universal
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  trustsy_verify:
+    :path: ".symlinks/plugins/trustsy_verify/ios"
+  TrustsyVerify:
+    :path: "../../../../ios"
+
+SPEC CHECKSUMS:
+  Flutter: 71a624a5bc0c04062bf19101d501e466baf2fb47
+  NFCPassportReader: 8f69841f3436d36b2191d3b5905598bff7d19b36
+  OpenSSL-Universal: 6082b0bf950e5636fe0d78def171184e2b3899c2
+  trustsy_verify: 77ce60964b28f6da2de719b3d964ac3d532e5b2b
+  TrustsyVerify: 0850f591271d8e6394405a14cadb925a292304c0
+
+PODFILE CHECKSUM: b38083fe36c1a60c424226179b2a6fc2303bb7ce
+
+COCOAPODS: 1.17.0

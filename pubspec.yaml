@@ -1,0 +1,29 @@
+name: trustsy_verify
+description: >-
+  Run trustsy verification flows in a Flutter app with the native Android
+  (Compose) and iOS (SwiftUI) screens — the same flow the web verify app runs,
+  end-to-end sealed, with ePassport / eID NFC chip reading (ICAO 9303).
+version: 0.2.0
+publish_to: none
+
+environment:
+  sdk: ">=3.4.0 <4.0.0"
+  flutter: ">=3.22.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: com.trustsy.verify.flutter
+        pluginClass: TrustsyVerifyPlugin
+      ios:
+        pluginClass: TrustsyVerifyPlugin
